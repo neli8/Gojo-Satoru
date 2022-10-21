@@ -1157,7 +1157,7 @@ Please @${m.mentionedJid[0].split`@`[0]} To Type Accept/Reject`
 「اضغط اقبل اذا موافق 😂🤡」◣`
             let ments = [me, jodoh]
             let buttons = [
-                        { buttonId: '「اقبل🤗」◣', buttonText: { displayText: '「اقبل🤗」◣' }, type: 1 }
+                        { buttonId: '「اقبل⚡🤣」◣', buttonText: { displayText: '「اقبل⚡🤣」◣' }, type: 1 }
                     ]
                     await GojoMdNx.sendButtonText(m.chat, buttons, jawab, GojoMdNx.user.name, m, {mentions: ments})
             }
@@ -1295,7 +1295,7 @@ GojoMdNx.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${san
 	    「 صح؟ 🥲 」◣`
             let ments = [me, jodoh]
             let buttons = [
-                        { buttonId: '「 يب 😂 」◣', buttonText: { displayText: '「 يب 😂 」◣' }, type: 1 }
+                        { buttonId: '「 يب 😂⚡ 」◣', buttonText: { displayText: '「 يب 😂⚡ 」◣' }, type: 1 }
                     ]
                     await GojoMdNx.sendButtonText(m.chat, buttons, jawab, GojoMdNx.user.name, m, {mentions: ments})
             }
@@ -1441,7 +1441,7 @@ case 'halah': case 'hilih': case 'huluh': case 'heleh': case 'holoh':
                 if (!m.isGroup) return replay(`${mess.group}`)
                 if (!isBotAdmins) return replay(`${mess.botAdmin}`)
                 if (!isAdmins) return replay(`${mess.admin}`)
-let teks = `「المنشن الجماعي」◣
+let teks = `「🌊🐼المنشن الجماعي」◣
  
  ➲ *${q ? q : 'اصحو من النوم'}*\n\n`
                 for (let mem of participants) {
@@ -1741,7 +1741,7 @@ break
                 let getGroups = await GojoMdNx.groupFetchAllParticipating()
                 let groups = Object.entries(getGroups).slice(0).map(entry => entry[1])
                 let anu = groups.map(v => v.id)
-                reply(`「 انتظر شوي ... 」◣`)
+                reply(`「 ⚡🐼انتظر شوي ... 」◣`)
                 for (let i of anu) {
                     await sleep(1500)
                     let btn = [{
@@ -1765,17 +1765,17 @@ break
                                     id: 'owner'
                                 }
                             }]
-                      let txt = `「 غوجو ساتورو موجود 🎉 」\n\n${text}`
+                      let txt = `「 روبين تشان موجودة 🐼⚡🌊」\n\n${text}`
                       GojoMdNx.send5ButImg(i, txt, GojoMdNx.user.name, global.thumb, btn)
                     }
-                reply(`「 تم  ✌ 」◣`)
+                reply(`「 تم  ⚡✌ 」◣`)
             }
             break
             case 'رسالة.جماعية': case 'رسالة.جماعية.الكل': case 'bcall': {
                 if (!isCreator) return replay(`${mess.owner}`)
                 if (!text) return replay(`Where Is The Text?\n\nExample : ${prefix + command} Nexus`)
                 let anu = await store.chats.all().map(v => v.id)
-                reply(`「 سيتم الأرسال بعد قليل ..」◣`)
+                reply(`「 🐼🌊سيتم الأرسال بعد قليل ..」◣`)
 		for (let yoi of anu) {
 		    await sleep(1500)
 		    let btn = [{
@@ -1799,10 +1799,10 @@ break
                                     id: 'owner'
                                 }
                             }]
-                      let txt = `「 غوجو ساتورو موجود 🎉」\n\n${text}`
+                      let txt = `「 روبين تشان موجودة 🐼🌊⚡」\n\n${text}`
                       GojoMdNx.send5ButImg(yoi, txt, GojoMdNx.user.name, global.thumb, btn)
 		}
-		reply('「 تم 🤗 」◣')
+		reply('「 تم 🤗⚡ 」◣')
             }
             break
             case 'chatinfo': case 'infochat': {
@@ -1850,7 +1850,7 @@ break
              case 'قائمة المتصلين': case 'المتصلين': {
                     let id = args && /\d+\-\d+@g.us/.test(args[0]) ? args[0] : m.chat
                     let online = [...Object.keys(store.presences[id]), botNumber]
-                    GojoMdNx.sendText(m.chat, '「 الموجودين الأن 」◣\n\n' + online.map(v => '👤 @' + v.replace(/@.+/, '')).join`\n`, m, { mentions: online })
+                    GojoMdNx.sendText(m.chat, '「 🐼⚡الموجودين الأن 」◣\n\n' + online.map(v => '👤 @' + v.replace(/@.+/, '')).join`\n`, m, { mentions: online })
              }
              break
             case 'ملصق': case 's': case 'ستيكر': case 'س': {
@@ -2366,8 +2366,8 @@ break
                 reply(mess.wait)
                 let anu = await fetchJson('https://raw.githubusercontent.com/iamriz7/kopel_/main/kopel.json')
                 let random = anu[Math.floor(Math.random() * anu.length)]
-                GojoMdNx.sendMessage(m.chat, { image: { url: random.male }, caption: `「 ولد 」「👦🏻」◣`}, { quoted: m })
-                GojoMdNx.sendMessage(m.chat, { image: { url: random.female }, caption: `「 بنت 」「👧🏻」◣` }, { quoted: m })
+                GojoMdNx.sendMessage(m.chat, { image: { url: random.male }, caption: `「 مـــغامر 」「🧝🏻‍♂️」◣`}, { quoted: m })
+                GojoMdNx.sendMessage(m.chat, { image: { url: random.female }, caption: `「 مـــغامرة 」「🧝🏻‍♀️」◣` }, { quoted: m })
             }
 	    break
             case 'قهوة': case 'شاي': {
@@ -3115,16 +3115,16 @@ ${Object.entries(global.db.data.sticker).map(([key, value], index) => `${index +
             }
             break
             case 'اضافة.رسالة': {
-                if (!m.quoted) return reply(`*「 اكتب مالذي تريد ان تضيفه ف قائمة الرسائل 」◣*`)
+                if (!m.quoted) return reply(`*「 ⚡اكتب مالذي تريد ان تضيفه ف قائمة الرسائل 」◣*`)
                 if (!text) return reply(`Example : ${prefix + command} File Name`)
                 let msgs = global.db.data.database
-                if (text.toLowerCase() in msgs) return reply(`'${text}'*「 هذه الرسالة موجودة بالفعل ف القائمة 」◣*`)
+                if (text.toLowerCase() in msgs) return reply(`'${text}'*「 ⚡هذه الرسالة موجودة بالفعل ف القائمة 」◣*`)
                 msgs[text.toLowerCase()] = quoted.fakeObj
-reply(`*「 تم اضافة الرسالة」◣*'${text}'
+reply(`*「 ⚡تم اضافة الرسالة」◣*'${text}'
     
-「 الرمز ${text} 」◣
+「 ⚡الرمز ${text} 」◣
 
-「 اكتب *قائمة.الرسائل* لكي ترى الرسائل التي اضفتها 」◣`)
+「 ⚡اكتب *قائمة.الرسائل* لكي ترى الرسائل التي اضفتها 」◣`)
             }
             break
             case 'حصلت.رسالة': {
@@ -3146,9 +3146,9 @@ reply(`*「 تم اضافة الرسالة」◣*'${text}'
 	    break
             case 'حذف.الرسالة': case 'deletemsg': {
 	        let msgs = global.db.data.database
-	        if (!(text.toLowerCase() in msgs)) return reply(`*「 هذا الامر غير موجود ف القائمة 」◣*`)
+	        if (!(text.toLowerCase() in msgs)) return reply(`*「 ⚡هذا الامر غير موجود ف القائمة 」◣*`)
 		delete msgs[text.toLowerCase()]
-		reply(`*「 تم حذف الامر '${text}' من قائمة الرسائل 」◣*`)
+		reply(`*「 ⚡تم حذف الامر '${text}' من قائمة الرسائل 」◣*`)
             }
 	    break
 	    case 'anonymous': {
@@ -3266,13 +3266,13 @@ reply(`*「 تم اضافة الرسالة」◣*'${text}'
             case 'عام': {
                 if (!isCreator) return replay(`${mess.owner}`)
                 GojoMdNx.public = true
-                reply('*「 تم 」◣*')
+                reply('*「 تم 🐼❤ 」◣*')
             }
             break
             case 'خاص': {
                 if (!isCreator) return replay(`${mess.owner}`)
                 GojoMdNx.public = false
-                reply('*「 تم 」◣*')
+                reply('*「 تم 🐼❤ 」◣*')
             }
             break
             case 'ping': case 'botstatus': case 'statusbot': {

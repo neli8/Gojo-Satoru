@@ -3382,17 +3382,17 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./GojoMedia/ko.jpg')},
                             hydratedFooterText: `┌─❖
-┌─❖ مـرحبـاً 🤗 」
+┌─❖ مـرحبـاً 🐼🌊」
 └┬❖ 「 ${pushname} 」
-││✑「مـعـك بـوت غـوجـو 👋🏻」◣
-││✑「مـن مـمـلـكـة غولد 🤗」◣
+││✑「مـعـك بـوتة نويل من عائلة ملكية 👸⚡」◣
+││✑「مـن صنع دابي سان🍷🐼」◣
 │└───────────────┈ ⳹
- 「 مـعـلـومـات عـن الـبـوت 」
-│✙「 اسـم الـبـوت 」◣ : 「 غوجو ✨🤞🏻 」◣
+ 「 ⚡مـعـلـومـات عـن الـبـوت⚡ 」
+│✙「 اسـم الـبـوت 」◣ : 「 نويل🏻⚡🐼 」◣
 │✙「 رقـم الـمـالـك 」◣ : ${global.owner}
 │✙「عـدد الـمـسـتـخـدمـيـن」◣ : ${Object.keys(global.db.data.users).length}
 └┬──────────────┈ ⳹
-   │✑  「 اضـغـط عـلـى الـخـيـارات 🤗 」◣
+   │✑  「 اضـغـط عـلـى الـخـيـارات 🤗❤ 」◣
    └───────────────┈ ⳹`,
                              hydratedButtons: [{
                                 urlButton: {
@@ -3437,17 +3437,17 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./GojoMedia/gojo.jpg')}, 
                             hydratedFooterText: `
-┌─❖ مـرحبـاً 🤗 」
+┌─❖ مـرحبـاً 🐼🌊」
 └┬❖ 「 ${pushname} 」
-││✑「مـعـك بـوت غـوجـو 👋🏻」◣
-││✑「مـن مـمـلـكـة غولد 🤗」◣
+││✑「مـعـك بـوتة نويل من عائلة ملكية ⚡👸👋🏻」◣
+││✑「مـن صنع دابي ساما🐼🍷」◣
 │└───────────────┈ ⳹
- 「 مـعـلـومـات عـن الـبـوت 」
-│✙「 اسـم الـبـوت 」◣ : 「 غوجو ✨🤞🏻 」◣
+ 「 ⚡مـعـلـومـات عـن الـبـوت⚡ 」
+│✙「 اسـم الـبـوت 」◣ : 「 نويل ⚡🤞🏻 」◣
 │✙「 رقـم الـمـالـك 」◣ : ${global.owner}
 │✙「عـدد الـمـسـتـخـدمـيـن」◣ : ${Object.keys(global.db.data.users).length}
 └┬──────────────┈ ⳹
-   │✑  「 اضـغـط عـلـى الـخـيـارات 🤗 」◣
+   │✑  「 اضـغـط عـلـى الـخـيـارات 🤗❤ 」◣
    └───────────────┈ ⳹`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -3484,19 +3484,18 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 	case 'الاوامر': case 'اوامر': {
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
-                    title: `「 مرحبا 👋🏻  」◣
-		    「 معك بوت غوجو 🤗 」◣
-		    「 افضل بوت عربي 」◣
-
- 「 رابط شرح كيف تصنع بوت عربي طريقة سهله راقب وتعلم. ولاتنسى الاشتراك بالقناة」◣
-		    「https://youtu.be/MBPIx3f-VIA」◣
-		    「 اتمنى ان تعملو اشتراك للقناة وتنشروها اذا تقدرو عشان ينتشر المقطع كمان والكل يستفيد وجزاه الله خير الي يشترك 💖🤗」◣                 
- 「 رابط فرع التعليم على البوت」◣
-		    「https://chat.whatsapp.com/Gb62eN2S5yI9mhfdn6Ma4z」◣
-		    「 الي محتاج شروحات ينضم 」◣`,
-                    description: `「 اختر قائمة من فضلك 」◣`,
+                    title: `「 مرحبا 👋🏻⚡  」◣
+		    「 معك بوتة نويل  🐼🎀 」◣
+		    「 افضل بوتة عربية من دون منازع🐼🌊⚡」◣
+		   「 ابط حساب المطور انستا❤🐼⚡」◣
+		    「https://instagram.com/m_o_s_71?igshid=YmMyMTA2M2Y=」◣
+		   「 اتمنى ان تعملو اشتراك للقناة وتنشروها وليس بدو شرح يجي خاص💖🐼」◣                 
+ 「 رابط حساب مطور تك🐼❤」◣
+		    「https://www.tiktok.com/@dabi2392?_t=8WXNM1DZSGU&_r=1」◣
+		    「 الي محتاج شروحات يجي خاص🐼❤ 」◣`,
+                    description: `「 🐼⚡اختر قائمة من فضلك 」◣`,
                     buttonText: "「 القائمة 」◣",
-                    footerText: `「 تحت الصيانة ⚙️」◣`,
+                    footerText: `「 تحت الصيانة 🕯⚙️」◣`,
                     listType: "SINGLE_SELECT",
                     sections: [{
 								"title": "قائمة الخيارات",
@@ -3592,7 +3591,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "المملكة",
 								"rows": [
 									{
-										"title": "قائمة استمارات مملكة غولد",
+										"title": "قائمة استمارات ",
 										"description": ".17.",
 										"rowId": `${prefix}anon`
 									}
@@ -3603,6 +3602,14 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"rows": [
 									{
 										"title": "تاريخ مملكة غولد",
+			
+										
+							
+									
+									
+										
+	
+										
 										"description": ".18.",
 										"rowId": `${prefix}tqtt`
 									}
@@ -3620,9 +3627,9 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
             case 'التسجhgjيل': case 'التسجيل': {
-                reply(`「 الفرع الخاص ل التعليم على البوت 」◣
+                reply(`「 رقم مطور لتسجيل عندو في دورة بوتات⚡🐼 」◣
 
-「 _https://chat.whatsapp.com/CKLmAGJo3iw5AvNM1KZee3_ 」◣
+「 https://wa.me/ 645-830816 」◣
 
 「 نرحب بالجميع. 」◣`)
             }
